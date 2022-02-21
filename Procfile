@@ -2,4 +2,4 @@
 
 telebot = "*"
 
-web: python Rock.py
+web: python Zapret.py
