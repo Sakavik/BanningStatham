@@ -1,7 +1,7 @@
 import telebot;
 import random
 from PIL import Image, ImageDraw,ImageFont
-bot = telebot.TeleBot('5171559198:AAEZGlQpigDaEcgZWAMlukFKaAp41GS1uRA')
+bot = telebot.TeleBot('TOKEN')
 @bot.message_handler( commands=['start', 'help'])
 def handle_start_help(message):
     bot.send_message( message.chat.id, "Введите:Запрети")
